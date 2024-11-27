@@ -1,0 +1,5 @@
+<div class="container-contador">
+<h2>contador: {{counter}}</h2>
+<app-add [counterAdd]="counter" (emitAdd)="handleCounter($event)"></app-add>
+<app-min [counterMin]="counter" (emitMin)="handleCounter($event)"></app-min>
+</div>

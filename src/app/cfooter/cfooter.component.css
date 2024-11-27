@@ -1,0 +1,37 @@
+/* Footer Styles */
+footer {
+   background: linear-gradient(45deg, #4c6cb3, #aa6060);
+    color: white;
+    padding: 20px 0;
+  }
+  
+  footer h6 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  footer p, footer a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+
+  footer .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  footer .row div {
+    margin-bottom: 20px;
+  }
+
+footer .copyright {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-size: 0.85rem;
+  }
+  
